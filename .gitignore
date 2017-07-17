@@ -11,7 +11,7 @@
 *.sass-cache
 node_modules/
 .tmp/
-.idea
+
 
 # OS or Editor folders
 .DS_Store
@@ -28,3 +28,4 @@ nbproject
 .komodotools
 _notes
 dwsync.xml
+.idea
