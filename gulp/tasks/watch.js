@@ -10,6 +10,7 @@ gulp.task('watch', () => {
       baseDir: 'app'
     }
   });
+
   watch('./app/index.html', () => {
     browserSync.reload();
   });
