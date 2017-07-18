@@ -3,7 +3,7 @@ const
   webpack = require('webpack');
 
 
-gulp.task('scripts', (callback) => {
+gulp.task('scripts', ['modernizr'], (callback) => {
   webpack(require('../../webpack.config'), (err, stats) => {
     if (err) {
       console.error(err.toString());
